@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.headpara{
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #4b0a4e;
+}
+
+.nav-link{
+    color: #25a9d4;
+}
+
+.bg-file{
+    background-image: url(./img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.shop-bg{
+    background-image: url(./img/shop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.bgtext{
+    background-color: #4b0a4ea1;
+    font-size: 18px;
+    width: 80%;
+    padding: 11px;
+}
+
+.textMargin{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.card{
+    border: 1px solid rgb(139, 156, 104);
+    border-radius: 10px 10px 5px 5px;
+}
+
+.cardtxt{
+    margin-top: -10px;
+    background-color: white;
+    border-radius: 5px 5px 10px 10px;
+}
+
+.card-img-top{
+    border-radius: 10px 10px 5px 5px;
+    height: 200px;
+}
+
+.butn{
+    background-color: #4b0a4e;
+    color: white;
+    border-radius: 45px;
+    margin: 50px 0px 10px 0px;
+    font-size: 14px;
+    padding: 2%;
+    width: 40%;
+}
+
+.carousel-control-next-icon{
+    border-radius: 50%;
+    background-color: black;
+}
+
+.carousel-control-prev-icon{
+    border-radius: 50%;
+    background-color: black;
+}
+
+.box{
+    background-color: rgba(245, 245, 245, 0.911);
+    border: 2px solid lightslategray;
+    padding: 7px;
+}
+
+.pickup{
+    display: flex;
+    list-style-type: none;
+}
+
+.facilities{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px 0px 0px 10px;
+}
+
+.facilitytext{
+    font-size: 12px; 
+    margin-left: 10px;
+}
+
+.footerwidth{
+    width: 70%;
+}
+
+.designdiv{
+    background-color: #f5d244;
+}
+
+.triangle {
+    position: absolute;
+    margin-top: 110px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -155px;
+  }
+
+  .triangle0 {
+    width: 30px;
+    height: 30px;
+    border-right: solid 30px #f5d244;
+    border-bottom: solid 30px transparent;
+    border-top: solid 30px transparent;
+  }
+
+  .designdiv0{
+    background-color: #4b0a4e;
+}
+
+.designdiv0para{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.triangle0 {
+    position: absolute;
+    margin-top: 110px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -155px;
+  }
+
+  .triangle1 {
+    width: 30px;
+    height: 30px;
+    border-right: solid 30px #4b0a4e;
+    border-bottom: solid 30px transparent;
+    border-top: solid 30px transparent;
+  }
+
+    .leftmargin{
+        margin-left: -15px;
+    }
+  
+    .rightmargin{
+        margin-left: 5px;
+    }
+
+@media (max-width:768px){
+    .facilities{
+        font-size: 13px;
+        font-weight: bold;
+        margin: 6px 0px 0px 10px;
+    }
+
+    .facilitytext{
+        font-size: 9px; 
+        margin-left: 10px;
+    }
+
+    .imgtopm{
+        margin-top: 10px;
+    }
+
+    .footerwidth{
+        width: 90%;
+    }
+
+    .footerpara{
+        font-size: 14px;
+    }
+
+    .smallwidth{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .triangle {
+        position: absolute;
+        margin-top: 110px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: -190px;
+      }
+    
+      .triangle0 {
+        width: 30px;
+        height: 30px;
+        border-right: solid 30px #f5d244;
+        border-bottom: solid 30px transparent;
+        border-top: solid 30px transparent;
+      }
+
+    .triangle0 {
+        position: absolute;
+        margin-top: 110px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: -190px;
+      }
+    
+      .triangle1 {
+        width: 30px;
+        height: 30px;
+        border-right: solid 30px #4b0a4e;
+        border-bottom: solid 30px transparent;
+        border-top: solid 30px transparent;
+      }
+
+      
+    .leftmargin{
+        margin-left: 0px;
+    }
+  
+    .rightmargin{
+        margin-left: 0px;
+    }
+
+}
+
+
+@media (max-width:425px){
+
+    .facilities{
+        font-size: 16px;
+        font-weight: bold;
+        margin: 6px 0px 0px 10px;
+    }
+
+    .imgtop{
+        margin-top: 10px;
+    }
+
+    .headinghr{
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .smallwidth{
+        width: 70%;
+    }
+
+    .shop-bg{
+        background-image: url(./img/shop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+    
+    .bgtext{
+        background-color: rgba(77, 10, 97, 0.548);
+        font-size: 18px;
+        width: 80%;
+        padding: 11px;
+        margin-left: 20px;
+    }
+    
+    .smalldevicewidth{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .smalldevicewidth1{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
