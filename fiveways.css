@@ -42,14 +42,19 @@
 }
 
 .card{
-    border: 1px solid rgb(139, 156, 104);
+    border: 1px solid #f5d244;
     border-radius: 10px 10px 5px 5px;
+    width: 90%;
+    background-color: #f5d244;
 }
 
 .cardtxt{
     margin-top: -10px;
     background-color: white;
-    border-radius: 5px 5px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 .card-img-top{
@@ -61,25 +66,42 @@
     background-color: #4b0a4e;
     color: white;
     border-radius: 45px;
-    margin: 50px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
     font-size: 14px;
     padding: 2%;
     width: 40%;
 }
 
-.carousel-control-next-icon{
-    border-radius: 50%;
-    background-color: black;
+.butn:hover{
+    color: white;
 }
 
-.carousel-control-prev-icon{
+.leftarrow{
     border-radius: 50%;
-    background-color: black;
+    background-color: grey;
+   padding: 7px;
+}
+
+.carousel-control-prev {
+    left: 80px;
+}
+
+.carousel-control-prev:active{
+    color: black;
+}
+
+.carousel-control-next:active{
+    color: black;
+}
+
+.carousel-control-next {
+    right: 80px;
 }
 
 .box{
     background-color: rgba(245, 245, 245, 0.911);
-    border: 2px solid lightslategray;
+    border: 2px solid #4b0a4e;
+    border-radius: 10px;
     padding: 7px;
 }
 
@@ -95,7 +117,7 @@
 }
 
 .facilitytext{
-    font-size: 12px; 
+    font-size: 14px; 
     margin-left: 10px;
 }
 
@@ -169,7 +191,12 @@
         position:absolute;
     }
 
+    .playstore{
+       mix-blend-mode:overlay;
+    }
+
 @media (max-width:768px){
+
     .facilities{
         font-size: 13px;
         font-weight: bold;
@@ -177,7 +204,7 @@
     }
 
     .facilitytext{
-        font-size: 9px; 
+        font-size: 12px; 
         margin-left: 10px;
     }
 
@@ -195,7 +222,10 @@
 
     .smallwidth{
         width: 80%;
-        margin-left: 10%;
+    }
+
+    .card-img-top{
+        height: 200px;
     }
 
     .triangle {
@@ -239,6 +269,14 @@
         margin-left: 0px;
     }
 
+    .carousel-control-prev {
+        left: -15px;
+    }
+    
+    .carousel-control-next {
+        right: 0px;
+    }
+
 }
 
 
@@ -261,6 +299,7 @@
 
     .smallwidth{
         width: 70%;
+        margin-left: 19%;
     }
 
     .shop-bg{
@@ -286,5 +325,13 @@
     .smalldevicewidth1{
         width: 90%;
         margin-left: 5%;
+    }
+
+    .carousel-control-prev {
+        left: -10px;
+    }
+    
+    .carousel-control-next {
+        right: -10px;
     }
 }
